@@ -8,7 +8,7 @@ import model.data.DateApiResp
 import model.data.TimeApiResp
 import model.data.ZoneApiResp
 
-fun createJsonFormatter(): Json =
+fun  createJsonFormatter(): Json =
     Json(
         configuration =  JsonConfiguration.Stable.copy(
             prettyPrint = true,

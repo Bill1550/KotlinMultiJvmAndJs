@@ -75,12 +75,12 @@ fun Application.mainModule(testing: Boolean = false ) {
 
         get( "/time") {
             call.response.header("Access-Control-Allow-Origin", "*")
-            call.respond( ServiceLocator.timeRepo.getLocalTime() )
+            call.respond( ServiceLocator.timeSource.getLocalTime() )
         }
 
         get( "/time/{zone}") {
             call.response.header( "Access-Control-Allow-Origin", "*")
-            call.respond( ServiceLocator.timeRepo.getTimeDataSet( call.parameters["zone"] ).let {
+            call.respond( ServiceLocator.timeSource.getTimeDataSet( call.parameters["zone"] ).let {
                 ResponseWrapper( it )
             })
         }
