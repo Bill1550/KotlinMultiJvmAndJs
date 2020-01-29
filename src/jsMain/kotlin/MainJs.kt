@@ -51,8 +51,6 @@ fun loadServerTime() {
 
             console.log("Repeated $it times")
         }
-
-
     }
 }
 

@@ -90,6 +90,7 @@ kotlin {
                 implementation npm("text-encoding", '0.7.0')
                 implementation npm("text-encoding-utf-8", '1.0.2' )
                 implementation npm("abort-controller", '3.0.0')
+                implementation npm("require", '2.4.20')
 //                implementation "org.jetbrains.kotlinx:kotlinx-io-js:0.1.16"
             }
         }

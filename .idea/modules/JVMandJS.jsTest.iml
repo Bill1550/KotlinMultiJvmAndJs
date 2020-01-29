@@ -6,8 +6,8 @@
         <dependsOnModuleNames>JVMandJS_commonTest</dependsOnModuleNames>
         <sourceSets>
           <sourceSet>JVMandJS.jsMain</sourceSet>
-          <sourceSet>JVMandJS.commonMain</sourceSet>
           <sourceSet>JVMandJS.commonTest</sourceSet>
+          <sourceSet>JVMandJS.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>jsBrowserTest|JVMandJS:jsTest|js</externalSystemTestTasks>

@@ -1,0 +1,18 @@
+GET https://www.qa2.mvnctl.net/api/v1/_/metadata
+Accept: application/json
+
+###
+POST https://www.qa2.mvnctl.net/api/v1/api_key
+Content-Type: application/json
+
+{
+   "email": "Bill06470+test0040@gmail.com",
+   "password": "Droid-0040"
+}
+
+###
+GET https://www.qa2.mvnctl.net/api/v1/me
+Accept: application/json
+
+###
+

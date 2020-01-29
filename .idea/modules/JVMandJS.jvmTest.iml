@@ -5,9 +5,9 @@
       <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="JVMandJS">
         <dependsOnModuleNames>JVMandJS_commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>JVMandJS.commonMain</sourceSet>
           <sourceSet>JVMandJS.jvmMain</sourceSet>
           <sourceSet>JVMandJS.commonTest</sourceSet>
+          <sourceSet>JVMandJS.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>jvmTest|JVMandJS:jvmTest|jvm</externalSystemTestTasks>

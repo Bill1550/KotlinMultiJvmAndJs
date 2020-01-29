@@ -7,5 +7,7 @@ import kotlinx.serialization.Serializable
 @SerialName( "zone" )
 data class ZoneApiResp(
     val id: String,
+
+    @SerialName("display_name")
     val name: String
 ) : ApiResp

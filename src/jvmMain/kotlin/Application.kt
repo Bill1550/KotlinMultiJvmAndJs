@@ -68,6 +68,13 @@ fun Application.mainModule(testing: Boolean = false ) {
                         id="js-time-date"
                         +"????"
                     }
+                    br {}
+                     div {
+                        id="js-call-kotlin"
+                        onClick="alert(JVMandJS.sample.getMessage())"
+                        +"Click here!"
+                    }
+
                     script(src = "/static/JVMandJS.js") {}
                 }
             }
